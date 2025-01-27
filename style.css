@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 * {
   margin: 0;
@@ -15,4 +16,45 @@ h1 {
 header {
   background-color: rosybrown;
   color: white;
+}
+
+nav {
+  background-color: rosybrown;
+  color: white;
+  padding: 25px;
+  font-family: "Lobester", serif;
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  word-spacing: 8px;
+}
+
+.navbar-nav a:link {
+  color: #FEF7EC;
+}
+
+.navbar-nav a:visited {
+  color: #FEF7EC;
+}
+
+.navbar-nav a:hover {
+  color: red;
+}
+
+.navbar-nav a:active {
+  color: red;
+}
+
+.navbar-toggler {
+  color: rosybrown;
+}
+
+footer {
+  font-size: 12px;
+  background-color: rosybrown;
+  color: white;
+  margin-top: auto;
+  padding: 15px;
+  overflow: auto;
 }

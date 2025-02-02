@@ -27,7 +27,12 @@
     </div>
   </nav>
   <main>
-    <h2>Showcase</h2>
+    <button class="button left-button" onclick="changeVideo(-1)">&#10094;</button>
+    <video id="video" controls>
+      <source src="Reels project/reel1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <button class="button right-button" onclick="changeVideo(1)">&#10095;</button>
   </main>
 </body>
 <footer class="footer mt-auto py-3 fix-bottom bg-dark navbar-dark text-light ">
